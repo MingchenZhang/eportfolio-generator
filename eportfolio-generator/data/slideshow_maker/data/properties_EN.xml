@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This XML file allows us to easily customize the look and language used
+    in our program's user interface. Note that this is for customizing settings
+    for the Course Schedule Builder interface, NOT the Web page that we're building. 
+-->
+<properties>
+    <property_list>    
+        <property name="TITLE_WINDOW"		value="Slide Show Maker"></property>  
+        
+        <!-- PROGRAM ICON FILES -->
+	
+        <!-- TOOLTIPS FOR BUTTONS -->
+        <property name="TOOLTIP_NEW_SLIDE_SHOW"	    value="Create a New Slide Show"></property>
+        <property name="TOOLTIP_LOAD_SLIDE_SHOW"    value="Load an Existing Slide Show"></property>
+        <property name="TOOLTIP_SAVE_SLIDE_SHOW"    value="Save this Slide Show"></property>
+        <property name="TOOLTIP_VIEW_SLIDE_SHOW"    value="View this Slide Show"></property>
+        <property name="TOOLTIP_EXIT"		    value="Exit the Application"></property>
+	<property name="TOOLTIP_ADD_SLIDE"	    value="Add Slide"></property>
+	<property name="TOOLTIP_REMOVE_SLIDE"	    value="Remove Slide"></property>
+	<property name="TOOLTIP_MOVE_UP"	    value="Move Slide Up"></property>
+	<property name="TOOLTIP_MOVE_DOWN"	    value="Move Slide Down"></property>
+	<property name="TOOLTIP_PREVIOUS_SLIDE"	    value="Previous Slide"></property>
+	<property name="TOOLTIP_NEXT_SLIDE"	    value="Next Slide"></property>
+        <property name="TOOLTIP_CHANGE_SLIDESHOW_TITLE"	    value="change slideshow title"></property>
+        <property name="TOOLTIP_CLOSE_FILE"	    value="close file"></property>
+	
+	<!-- DEFAULT VALUES -->
+	<property name="DEFAULT_IMAGE_CAPTION"	    value="DEFAULT CAPTION"></property>
+	<property name="DEFAULT_SLIDE_SHOW_TITLE"   value="DEFAULT TITLE"></property>
+	
+	<!-- UI LABELS -->
+	<property name="LABEL_CAPTION"		    value="Caption:"></property>
+        
+        <!-- GUI LABELS -->
+        <property name="COURSE_HEADING_LABEL"           value="Course Site Details"></property>
+        <property name="COURSE_INFO_LABEL"              value="Course Information"></property>
+        <property name="COURSE_SUBJECT_LABEL"           value="Subject:"></property>
+        <property name="COURSE_NUMBER_LABEL"            value="Number:"></property>
+        <property name="COURSE_SEMESTER_LABEL"          value="Semester:"></property>
+        <property name="COURSE_YEAR_LABEL"              value="Year:"></property>
+        <property name="COURSE_TITLE_LABEL"             value="Title:"></property>
+        <property name="INSTRUCTOR_NAME_LABEL"          value="Instrctor Name:"></property>
+        <property name="INSTRUCTOR_URL_LABEL"           value="Instructor Homepage:"></property>
+        <property name="PAGES_SELECTION_HEADING_LABEL"  value="Site Pages"></property>
+        <property name="SCHEDULE_HEADING_LABEL"         value="Course Schedule"></property>
+        <property name="DATE_BOUNDARIES_LABEL"          value="Semester Dates"></property>
+        <property name="STARTING_MONDAY_LABEL"          value="Starting Monday:"></property>
+        <property name="ENDING_FRIDAY_LABEL"            value="Ending Friday:"></property>
+        <property name="LECTURE_DAY_SELECT_LABEL"       value="Lecture Days"></property>
+        <property name="SLIDESHOW_VIEWER_NEXT_BUTTON"       value="Next Slide"></property>
+        <property name="SLIDESHOW_VIEWER_PREV_BUTTON"       value="Previous Slide"></property>
+        
+        <!-- DIALOG RESOURCE -->
+        <property name="DIALOG_YES"       value="YES"></property>
+        <property name="DIALOG_NO"       value="NO"></property>
+        <property name="DIALOG_CANCEL"       value="CANCEL"></property>
+        <property name="DIALOG_OK"       value="OK"></property>
+        <property name="DIALOG_SAVE_CONFIRMATION"       value="Do you want to save the changes?"></property>
+        <property name="DIALOG_SAVE_CONFIRMATION_WARNING"       value="All unsaved changes will be lost"></property>
+        <property name="DIALOG_RENAME_SLIDESHOW_TITLE"       value="rename the slideshow"></property>
+        <property name="DIALOG_RENAME_SLIDESHOW_QUESTION"       value="new title"></property>
+        <property name="DIALOG_RENAME_SLIDESHOW_CURRENTNAME"       value="current name:"></property>
+        <property name="DIALOG_RENAME_SLIDESHOW_EMPTY_NAME_WARNING"       value="new title could not be empty! changes discarded"></property>
+        
+        <!-- user hint -->
+        <property name="NEW_SLIDESHOW_CREATED"       value="New Slideshow has been created"></property>
+        <property name="NO_SLIDE_EXISTED"       value="No slide exised"></property>
+        
+        <!-- error -->
+        <property name="ERROR"                          value="Error"></property>
+        <property name="ERROR_NO_IMAGE_SELECTED"        value="no proper image has been selected"></property>
+        <property name="ERROR_FAIL_TO_CREATE_NEW_SLIDESHOW"        value="Fail to create new slideshow"></property>
+        <property name="ERROR_FAIL_TO_LOAD_SLIDESHOW"        value="Fail to load slideshow"></property>
+        <property name="ERROR_FAIL_TO_SAVE_SLIDESHOW"        value="Fail to save slideshow"></property>
+        <property name="ERROR_FAIL_TO_BUILD_SITE"        value="Fail to build site"></property>
+        <property name="ERROR_NO_NEXT_SLIDE"        value="this is the last slide"></property>
+        <property name="ERROR_NO_PREV_SLIDE"        value="this is the first slide"></property>
+        <property name="ERROR_SLIDE_IMAGE_BROKEN"        value="fail to load image"></property>
+    </property_list>
+    <property_options_list>
+    </property_options_list>
+</properties>

@@ -1,0 +1,38 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 8, 2015, 5:40:44 PM
+    Author     : mingchen zhang
+*/
+
+body {
+    background-color:#BDBDBD;/* color set */
+}
+#main-table {
+    background-color:rgba(196, 196, 196, 1);/* color set */
+}
+#banner-div div {/* cover div */
+    background-color:rgba(214, 214, 214, 0.66);/* color set */
+}
+#nav-div {
+    background-color:#ccc;
+}
+.nav-text-div {
+    border:1px solid rgba(110, 110, 110, 1);/* color set */
+}
+.nav-text-div:hover {
+    color:white;
+    background-color:rgba(110, 110, 110, 1);/* color set */
+}
+.nav-text-div-activated{
+    background-color:rgba(128, 128, 128, 1);
+}
+#contents-div {
+    background-color:rgba(227, 227, 227, 1);/* color set */
+}
+#footer {
+    background-color:rgba(194, 194, 194, 1);/* color set */
+}

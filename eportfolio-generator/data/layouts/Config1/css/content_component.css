@@ -1,0 +1,48 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 8, 2015, 5:32:59 PM
+    Author     : mingchen zhang
+*/
+
+.content-div {
+	position: relative;
+    min-height:25px;
+    margin:10px 0px 10px 0px;/* customizable */
+}
+.content-text-div {
+}
+.content-text-div p{
+    position:relative;
+    display:inline-block;
+    z-index:5;
+}
+.content-image-div {
+}
+.content-image-div img{
+    display:block;
+}
+.content-image-div img{
+    max-width:100%;/* unique customizable */
+}
+.content-iframe-div{
+	padding-bottom: 56.25%; /* 16:9 */ /* unique customizable */
+	padding-top: 25px;
+	height: 0;
+    margin:20px 0px 20px 0px;/* unique customizable */
+}
+.content-iframe-div iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.content-video-div {
+}
+.content-video-div video{
+    width:100%;
+}

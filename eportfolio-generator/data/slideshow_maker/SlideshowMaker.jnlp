@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="SlideshowMaker.jnlp">
+  <information>
+    <title>SlideshowMaker</title>
+    <vendor>McKillaGorilla</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="SlideshowMaker.jar" size="188548" download="eager" />
+    <jar href="lib\PropertiesManager.jar" size="5287" download="eager" />
+    <jar href="lib\XMLUtilities.jar" size="7418" download="eager" />
+    <jar href="lib\javax.json-1.0.4.jar" size="85147" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="SlideshowMaker" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="ssm.SlideShowMaker"  name="SlideshowMaker" />
+  <update check="always"/>
+</jnlp>

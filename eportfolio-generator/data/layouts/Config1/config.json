@@ -1,0 +1,59 @@
+{
+    "pageProperties": [
+        {
+            "propertyType": "text",
+            "configName": "pageTitle",
+            "displayName": "Page Title",
+            "description": "later"
+        }, {
+            "propertyType": "text",
+            "configName": "studentName",
+            "displayName": "Student Name",
+            "description": "later"
+        }, {
+            "propertyType": "selection",
+            "configName": "layout",
+            "displayName": "page layout",
+            "description": "later",
+            "selections": ["layout 01", "layout 02", "layout 03", "layout 04", "layout 05"],
+            "selectionsKey": ["layout01.html", "layout02.html", "layout03.html", "layout04.html", "layout05.html"]
+        }, {
+            "propertyType": "selection",
+            "configName": "colorSetCSS",
+            "displayName": "Color Set",
+            "description": "later",
+            "selections": ["blue", "green", "grey", "orange", "pink"],
+            "selectionsKey": ["css/color_blue.css", "css/color_green.css", "css/color_grey.css", "css/color_orange.css", "css/color_pink.css"]
+        }, {
+            "propertyType": "resource",
+            "configName": "bannerImage",
+            "displayName": "Banner Image",
+            "description": "later",
+            "fileType": ["jpg", "png", "gif"]
+        }, {
+            "propertyType": "text",
+            "configName": "bannerText",
+            "displayName": "Banner Text",
+            "description": "later"
+        }, {
+            "propertyType": "resource",
+            "configName": "navTopImage",
+            "displayName": "Navigation Icon",
+            "description": "later",
+            "fileType": ["jpg", "png", "gif"]
+        }, {
+            "propertyType": "text",
+            "configName": "footer",
+            "displayName": "Footer text",
+            "description": "later"
+        }, {
+            "propertyType": "selection",
+            "configName": "font",
+            "displayName": "Font",
+            "description": "later",
+            "selections": ["Open Sans", "Oswald", "Montserrat", "Lora", "Ubuntu"],
+            "selectionsKey": ["css/font01.css", "css/font02.css", "css/font03.css", "css/font04.css", "css/font05.css"]
+        }],
+    "navigation": 1,
+    "content": ["heading", "text", "list", "image", "video", "slideShow"]
+}

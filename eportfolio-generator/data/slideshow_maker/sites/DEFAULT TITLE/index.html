@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<link rel="stylesheet" href="css/slideshow_style.css">
+	
+	<title>Slideshow</title>
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	</head>
+	
+	<body>
+	<div id="slideshow-page">
+		<pre id="slideshow-title"></pre>
+		<div align="center">
+			<p id="slideshow-image-p">
+				<img src="" alt="No image loaded" id="slideshow-image" height=400 onError="this.src='img/DefaultStartSlide.png'">
+			</p>
+			<pre id="slideshow-caption"></pre>
+			<p id="slideButton-p">
+				<span id="slideButton-span">
+					<button type="button" class="slideButton-button" id="slideshow-prevButton"><img src="img/glyphicons-211-left-arrow.png" class="button-image"></button>
+					<button type="button" class="slideButton-button" id="slideshow-playButton"><img src="img/glyphicons-174-play.png" class="button-image"></button>
+					<button type="button" class="slideButton-button" id="slideshow-nextButton"><img src="img/glyphicons-212-right-arrow.png" class="button-image"></button>
+				</span>
+			</p>
+		</div>
+	</div>
+	
+	<script src="js/slides.js"></script>
+	<script src="js/Slideshow.js"></script>
+	</body>
+</html>

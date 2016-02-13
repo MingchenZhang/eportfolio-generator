@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This XML file allows us to easily customize the look and language used
+    in our program's user interface. Note that this is for customizing settings
+    for the Course Schedule Builder interface, NOT the Web page that we're building. 
+-->
+<properties>
+    <property_list>    
+        <property name="OK" value="OK"></property>
+        <property name="CANCEL" value="CANCEL"></property>
+        <property name="ERROR" value="ERROR"></property>
+        <property name="YES" value="Yes"></property>
+        <property name="NO" value="No"></property>
+        <property name="SUBMIT" value="Submit"></property>
+        <property name="BROWSE" value="Browse"></property>
+        <property name="CONFIRM" value="Confirm"></property>
+        <property name="DELETE" value="Delete"></property>
+        
+        <property name="PROGRAM_TITLE" value="ePortfolio generator"></property>
+        
+        <property name="TOOLTIP_NEW_FILE" value="New File"></property>
+        <property name="TOOLTIP_OPEN_FILE" value="Open File"></property>
+        <property name="TOOLTIP_SAVE_FILE" value="Save"></property>
+        <property name="TOOLTIP_SAVE_AS_FILE" value="Save As"></property>
+        <property name="TOOLTIP_EXPORT" value="Export ePortfolio"></property>
+        <property name="TOOLTIP_EXIT" value="Exit"></property>
+        <property name="TOOLTIP_EDIT_VIEW" value="Edit Mode"></property>
+        <property name="TOOLTIP_VIEW_VIEW" value="View Mode"></property>
+        <property name="TOOLTIP_NEW_PAGE" value="New Page"></property>
+        <property name="TOOLTIP_REMOVE_PAGE" value="Remove Page"></property>
+        <property name="TOOLTIP_REFRESH_PREVIEW" value="Refresh Page"></property>
+        <property name="TOOLTIP_REMOVE_ELEMENT" value="Remove this element"></property>
+        <property name="TOOLTIP_MOVE_UP_ELEMENT" value="Move element upward"></property>
+        <property name="TOOLTIP_MOVE_DOWN_ELEMENT" value="Move element downward"></property>
+        
+        <property name="RADIOBUTTON_EDIT" value="Edit Mode"></property>
+        <property name="RADIOBUTTON_VIEW" value="View Mode"></property>
+        <property name="LABEL_PAGE_SELECTOR" value="Page: "></property>
+        
+        <property name="DIALOG_SAVE_CONFIRMATION" value="Do you want to save the changes?"></property>
+        <property name="DIALOG_SAVE_CONFIRMATION_WARNING" value="Changes made after the last saving will be disgard!"></property>
+        <property name="DIALOG_SAVE_AS_TITLE" value="Save As"></property>
+        <property name="DIALOG_CONFIG_SELECT_TITLE" value="Select config"></property>
+        <property name="DIALOG_CONFIG_SELECT_PROMPT" value="Please select a configuration to proceed"></property>
+        
+        <property name="USERHINT_NEW_EPORTFOLIO_CREATED" value="New ePortfolio created"></property>
+        <property name="USERHINT_VIEW_EXCEPTION_DETAIL" value="View Exception"></property>
+        <property name="DIALOG_VIEW_EXCEPTION_TITLE" value="Exception"></property>
+        <property name="DIALOG_VIEW_EXCEPTION_HEADER" value="Detail of exception are followed: "></property>
+        
+        <property name="ERROR_FAIL_TO_SAVE" value="fail to save"></property>
+        <property name="ERROR_FILE_NOT_FOUND" value="file not found"></property>
+        <property name="ERROR_IO_EXCEPTION" value="IO exception"></property>
+        <property name="ERROR_PROPERTY_CTEATTION" value="fail to create property"></property>
+        <property name="ERROR_CONTENT_CREATION" value="fail to create content"></property>
+        <property name="ERROR_FAIL_TO_PREVIEW" value="fail to create preview"></property>
+        <property name="ERROR_TITLE_DUPLICATION" value="title duplicated (mulitiple pages has same title)"></property>
+        <property name="ERROR_FAIL_TO_REMOVE_ELEMENT" value="unable to remove this element"></property>
+        <property name="ERROR_FAIL_TO_MOVE_UP_ELEMENT" value="unable to move up this element"></property>
+        <property name="ERROR_FAIL_TO_MOVE_DOWN_ELEMENT" value="unable to move down this element"></property>
+        <property name="ERROR_FAIL_TO_CREATE_ELEMENT" value="fail to create element"></property>
+        <property name="ERROR_ELEMENT_SELECTION" value="fail to select item "></property>
+        <property name="ERROR_ELEMENT_NOT_TEXT" value="select element is not a text(but recognized as a text in selection)"></property>
+        <property name="ERROR_LINK_OVERLAPED" value="Link overlap with existed links"></property>
+        <property name="ERROR_LINK_NOT_FOUND" value="Link cannot be found"></property>
+        <property name="ERROR_PAGE_NOT_ENOUGH_TO_VIEW" value="At least one page is required to show view"></property>
+         
+        <property name="TEXT_ELEMENT_DEFAULT" value="default element"></property>
+        <property name="TEXT_PROPERTY_DEFAULT" value="default property"></property>
+        <property name="TEXT_DEFAULT_PAGE_NAME" value="default page title"></property>
+        
+        <property name="PROMPT_TEXT_ELEMENT" value="TEXT: "></property>
+        <property name="PROMPT_IMAGE_ELEMENT" value="IMAGE: "></property>
+        <property name="PROMPT_IMAGE_ELEMENT_CAPTION" value="Caption: "></property>
+        <property name="PROMPT_IMAGE_ELEMENT_FLOATING" value="Floating: "></property>
+        <property name="PROMPT_VIDEO_ELEMENT" value="VIDEO: "></property>
+        <property name="PROMPT_VIDEO_ELEMENT_CAPTION" value="Caption: "></property>
+        <property name="PROMPT_SLIDESHOW_ELEMENT" value="Slide Show: "></property>
+        <property name="PROMPT_HEADING_ELEMENT" value="Heading: "></property>
+        <property name="PROMPT_LIST_ELEMENT" value="List: "></property>
+        
+        <property name="PROMPT_TEXT_LINK_START_LABEL" value="Link start at: "></property>
+        <property name="PROMPT_TEXT_LINK_END_LABEL" value="Link end at: "></property>
+        <property name="PROMPT_LABEL_LIST_COMPONENT" value="Each line is an item: "></property>
+        
+        
+        
+        
+        
+    </property_list>
+    <property_options_list>
+    </property_options_list>
+</properties>

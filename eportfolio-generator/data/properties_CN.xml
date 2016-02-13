@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This XML file allows us to easily customize the look and language used
+    in our program's user interface. Note that this is for customizing settings
+    for the Course Schedule Builder interface, NOT the Web page that we're building. 
+-->
+<properties>
+    <property_list>    
+        <property name="TITLE_WINDOW"		value="图片秀制作器"></property>  
+        
+        <!-- PROGRAM ICON FILES -->
+	
+        <!-- TOOLTIPS FOR BUTTONS -->
+        <property name="TOOLTIP_NEW_SLIDE_SHOW"	    value="创建新的图片秀"></property>
+        <property name="TOOLTIP_LOAD_SLIDE_SHOW"    value="加载图片秀"></property>
+        <property name="TOOLTIP_SAVE_SLIDE_SHOW"    value="保存图片秀"></property>
+        <property name="TOOLTIP_VIEW_SLIDE_SHOW"    value="展示图片秀"></property>
+        <property name="TOOLTIP_EXIT"		    value="退出程序"></property>
+	<property name="TOOLTIP_ADD_SLIDE"	    value="添加图片"></property>
+	<property name="TOOLTIP_REMOVE_SLIDE"	    value="移除图片"></property>
+	<property name="TOOLTIP_MOVE_UP"	    value="上移图片"></property>
+	<property name="TOOLTIP_MOVE_DOWN"	    value="下移图片"></property>
+	<property name="TOOLTIP_PREVIOUS_SLIDE"	    value="前一图片"></property>
+	<property name="TOOLTIP_NEXT_SLIDE"	    value="下一图片"></property>
+        <property name="TOOLTIP_CHANGE_SLIDESHOW_TITLE"	    value="改变图片秀标题"></property>
+        <property name="TOOLTIP_CLOSE_FILE"	    value="关闭文件"></property>
+	
+	<!-- DEFAULT VALUES -->
+	<property name="DEFAULT_IMAGE_CAPTION"	    value="默认注解"></property>
+	<property name="DEFAULT_SLIDE_SHOW_TITLE"   value="默认标题"></property>
+	
+	<!-- UI LABELS -->
+	<property name="LABEL_CAPTION"		    value="注解:"></property>
+        <property name="NO_SLIDE_EXISTED"       value="无图片存在"></property>
+        
+        <!-- GUI LABELS -->
+        <property name="COURSE_HEADING_LABEL"           value="Course Site Details"></property>
+        <property name="COURSE_INFO_LABEL"              value="Course Information"></property>
+        <property name="COURSE_SUBJECT_LABEL"           value="Subject:"></property>
+        <property name="COURSE_NUMBER_LABEL"            value="Number:"></property>
+        <property name="COURSE_SEMESTER_LABEL"          value="Semester:"></property>
+        <property name="COURSE_YEAR_LABEL"              value="Year:"></property>
+        <property name="COURSE_TITLE_LABEL"             value="Title:"></property>
+        <property name="INSTRUCTOR_NAME_LABEL"          value="Instrctor Name:"></property>
+        <property name="INSTRUCTOR_URL_LABEL"           value="Instructor Homepage:"></property>
+        <property name="PAGES_SELECTION_HEADING_LABEL"  value="Site Pages"></property>
+        <property name="SCHEDULE_HEADING_LABEL"         value="Course Schedule"></property>
+        <property name="DATE_BOUNDARIES_LABEL"          value="Semester Dates"></property>
+        <property name="STARTING_MONDAY_LABEL"          value="Starting Monday:"></property>
+        <property name="ENDING_FRIDAY_LABEL"            value="Ending Friday:"></property>
+        <property name="LECTURE_DAY_SELECT_LABEL"       value="Lecture Days"></property>
+        <property name="SLIDESHOW_VIEWER_NEXT_BUTTON"       value="下一个"></property>
+        <property name="SLIDESHOW_VIEWER_PREV_BUTTON"       value="前一个"></property>
+        
+        <!-- DIALOG RESOURCE -->
+        <property name="DIALOG_YES"       value="是"></property>
+        <property name="DIALOG_NO"       value="否"></property>
+        <property name="DIALOG_CANCEL"       value="取消"></property>
+        <property name="DIALOG_OK"       value="确认"></property>
+        <property name="DIALOG_SAVE_CONFIRMATION"       value="想要保存当前文档吗？"></property>
+        <property name="DIALOG_SAVE_CONFIRMATION_WARNING"       value="为保存的数据将会丢失"></property>
+        <property name="DIALOG_RENAME_SLIDESHOW_TITLE"       value="重命名图片秀"></property>
+        <property name="DIALOG_RENAME_SLIDESHOW_QUESTION"       value="新标题"></property>
+        <property name="DIALOG_RENAME_SLIDESHOW_CURRENTNAME"       value="当前标题："></property>
+        <property name="DIALOG_RENAME_SLIDESHOW_EMPTY_NAME_WARNING"       value="标题名不能为空！ 标题改变已放弃"></property>
+        
+        <!-- user hint -->
+        <property name="NEW_SLIDESHOW_CREATED"       value="已创建新的图片秀"></property>
+        
+        <!-- error -->
+        <property name="ERROR"                          value="错误"></property>
+        <property name="ERROR_NO_IMAGE_SELECTED"        value="没有选择合适的文件"></property>
+        <property name="ERROR_FAIL_TO_CREATE_NEW_SLIDESHOW"        value="创建新文件失败"></property>
+        <property name="ERROR_FAIL_TO_LOAD_SLIDESHOW"        value="文件读取失败"></property>
+        <property name="ERROR_FAIL_TO_SAVE_SLIDESHOW"        value="文件保存失败"></property>
+        <property name="ERROR_FAIL_TO_BUILD_SITE"        value="网站创建失败"></property>
+        <property name="ERROR_NO_NEXT_SLIDE"        value="已是最后一页"></property>
+        <property name="ERROR_NO_PREV_SLIDE"        value="已是第一页"></property>
+        <property name="ERROR_SLIDE_IMAGE_BROKEN"        value="图片读取失败"></property>
+    </property_list>
+    <property_options_list>
+    </property_options_list>
+</properties>

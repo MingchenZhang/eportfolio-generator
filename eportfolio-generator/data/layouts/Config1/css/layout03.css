@@ -1,0 +1,25 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 8, 2015, 5:36:34 PM
+    Author     : mingchen zhang
+*/
+
+#nav-div {
+    /* width:200px; */ /* layput changes */
+    height:100%;
+    vertical-align:top;
+}
+#nav-top-image {
+    max-height:40px; /* layput changes */
+    display: block;
+    float: right; /* layput changes */
+}
+.nav-text-div {
+    padding:10px 20px 10px 20px;
+    margin:0px -5px 0px 0px; /* layput changes */
+    display:inline-block; /* layput changes */
+}
